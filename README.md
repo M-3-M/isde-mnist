@@ -1,1 +1,1 @@
-# isde-mnist
+MNIST Example
