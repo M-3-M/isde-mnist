@@ -91,7 +91,6 @@ plt.plot(sigma_values, acc_gaussian)
 plt.xlabel(r"$\sigma$")
 plt.show()
 
-
 plt.figure()
 plt.plot(k_values, acc_uniform, 'b', label="uniform")
 plt.plot(sigma_values*100, acc_gaussian, 'r', label="normal")

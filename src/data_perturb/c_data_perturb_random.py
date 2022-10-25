@@ -32,7 +32,7 @@ class CDataPerturbRandom(CDataPerturb):
 
     @min_value.setter
     def min_value(self, val):
-        self._max_value = float(val)
+        self._min_value = float(val)
 
     @max_value.setter
     def max_value(self, val):
