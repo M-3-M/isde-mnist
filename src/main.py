@@ -32,7 +32,7 @@ def split_data(x, y, tr_fraction=0.5):
 
     np.random.shuffle(tr_idx)
     ytr = y[tr_idx == 1]
-    xtr = x[tr_idx == 0, :]
+    xtr = x[tr_idx == 1, :]
 
     yts = y[tr_idx == 0]
     xts = x[tr_idx == 0, :]

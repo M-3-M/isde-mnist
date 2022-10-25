@@ -36,6 +36,6 @@ class CDataLoaderMNIST(CDataLoader):
         data = np.array(data)
 
         y = data[:, 0]
-        x = data[:, 1] / 255
+        x = data[:, 1:] / 255
 
         return x, y
